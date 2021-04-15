@@ -25,6 +25,6 @@ http.createServer(function(req, res) {
         resp= mat.div(num1,num2)
     }
 
-    var txt = "Resultado: " + resp //consultando um atributo da url, no caso chamado nome
+    var txt = "Resultado: " + resp
     res.end(txt); //imprime o texto na tela
 }).listen(5900); //porta de conexão
